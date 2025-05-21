@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Base Style -->
+    <Style x:Key="BaseBackgroundStyle" TargetType="Control">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Assets/Images/ImageBackground.png" 
+                           Stretch="UniformToFill" 
+                           Opacity="0.9"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- If use Window -->
+    <Style x:Key="SWindow" TargetType="Window" BasedOn="{StaticResource BaseBackgroundStyle}"/>
+
+    <!-- If use Page -->
+    <Style x:Key="SPage" TargetType="Page" BasedOn="{StaticResource BaseBackgroundStyle}"/>
+
+    <Style x:Key="SUserControl" TargetType="UserControl">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Assets/Images/ImageBackgroundDarker.png" 
+                   Stretch="UniformToFill" 
+                   Opacity="0.9"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SUserControlErrorEmail" TargetType="UserControl">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Assets/Images/ImageBackgroundDarker.png" 
+               Stretch="UniformToFill" 
+               Opacity="0.9"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

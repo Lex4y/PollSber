@@ -1,0 +1,96 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+
+    <system:String x:Key="MainViewMainTitle">SberQ</system:String>
+    <system:String x:Key="MainViewMainText">
+        SberQ — это сочетание инструментов 
+        психодиагностики и оценки компетенций 
+        с использованием реалистичной бизнес-
+        симуляции для диагностики
+        управленческих компетенций 
+        и потенциала. Метод разработан 
+        экспертами СберУниверситета, HR-блоком 
+        Сбера и Лабораторией нейронаук
+        и поведения человека.</system:String>
+    <system:String x:Key="MainViewButtonNext">Проверить себя</system:String>
+
+
+    <system:String x:Key="PollTitle">Оценка SberQ</system:String>
+    <system:String x:Key="PollTextPart1">
+        Для прохождения оценки SberQ Top вам потребуется 8 часов, 
+        а для нашего сегодняшнего теста на карьерную осознанность — всего 1,5 минуты.
+    </system:String>
+    <system:String x:Key="PollTextPart2">
+        Ответьте на 5 вопросов и получите рекомендации к развитию, а также 
+    узнайте больше про оценку SberQ и программы СберУниверситета. 
+    Результаты отправим на указанную вами электронную почту.
+    </system:String>
+    <system:String x:Key="PollQuestion1">1. На какой срок у вас есть карьерная цель:</system:String>
+    <system:String x:Key="PollQuestion1Value1">Нет цели</system:String>
+    <system:String x:Key="PollQuestion1Value2">1-3 года</system:String>
+    <system:String x:Key="PollQuestion1Value3">3+ лет</system:String>
+    <system:String x:Key="PollQuestion2">2. Как часто вы занимаетесь собственным развитием:</system:String>
+    <system:String x:Key="PollQuestion2Value1">Редко</system:String>
+    <system:String x:Key="PollQuestion2Value2">Периодически</system:String>
+    <system:String x:Key="PollQuestion2Value3">Постоянно</system:String>
+    <system:String x:Key="PollQuestion3">3. Как вы понимаете свои сильные стороны:</system:String>
+    <system:String x:Key="PollQuestion3Value1">Не было мысли про это</system:String>
+    <system:String x:Key="PollQuestion3Value2">Запрашиваю обратную связь</system:String>
+    <system:String x:Key="PollQuestion3Value3">Прохожу ассессмент</system:String>
+    <system:String x:Key="PollQuestion4">4. Как вы понимаете, какие компетенции нужно развивать:</system:String>
+    <system:String x:Key="PollQuestion4Value1">По мере столкновения с трудностями</system:String>
+    <system:String x:Key="PollQuestion4Value2">По рекомендации руководства и коллег</system:String>
+    <system:String x:Key="PollQuestion4Value3">На основе карьерных консультаций</system:String>
+    <system:String x:Key="PollQuestion5">5. Где вы берете вдохновение на развитие:</system:String>
+    <system:String x:Key="PollQuestion5Value1">А что это?</system:String>
+    <system:String x:Key="PollQuestion5Value2">Надо значит надо</system:String>
+    <system:String x:Key="PollQuestion5Value3">Меня заряжает стремление к амбициозным целям</system:String>
+    <system:String x:Key="PollButtonNext">Отправить ответы</system:String>
+
+    <system:String x:Key="ResultView1ResultTitle">Ваш результат 0-2 баллов</system:String>
+    <system:String x:Key="ResultView11">Похоже, вы упускаете карьерные возможности, которые вас окружают, а вместе с ними и интересные перспективы. Пройдя этот тест, вы уже сделали первый шаг, поздравляем!</system:String>
+    <system:String x:Key="ResultView12">Для дальнейшего развития предлагаем ознакомиться с возможностями диагностики и карьерного консультирования SberQ.</system:String>
+    <system:String x:Key="ResultView13">Вот программы, на которые вы можете обратить внимание прямо сейчас:</system:String>
+    <system:String x:Key="ResultView14">Upgrade: личностный интенсив</system:String>
+    <system:String x:Key="ResultView15">позволит увидеть перспективы и найти свои точка роста</system:String>
+    <system:String x:Key="ResultView16">Управление изменениями</system:String>
+    <system:String x:Key="ResultView17">научит навигировать компанию в постоянно меняющемся окружении</system:String>
+    <system:String x:Key="ResultView18">Бизнес с AI: от теории к практике</system:String>
+    <system:String x:Key="ResultView19">программа направлена на изучение процессов разработки и внедрения AI-технологий в бизнесе с целью оптимизации процессов и повышение экономической эффективности</system:String>
+
+    <system:String x:Key="ResultView2ResultTitle">Ваш результат 3-6 баллов</system:String>
+    <system:String x:Key="ResultView21">Вы явно не новичок в развитии, продолжайте в том же духе.</system:String>
+    <system:String x:Key="ResultView22">Чтобы выйти на следующий уровень и использовать собственный ресурс по максимуму предлагаем ознакомиться с возможностями диагностики и карьерного консультирования SberQ.</system:String>
+    <system:String x:Key="ResultView23">Вот программы, на которые вы можете обратить внимание прямо сейчас:</system:String>
+    <system:String x:Key="ResultView24">Upgrade 2: осознанное лидерство</system:String>
+    <system:String x:Key="ResultView25">позволит увидеть перспективы и развить свой лидерский потенциал</system:String>
+    <system:String x:Key="ResultView26">Мини MBA</system:String>
+    <system:String x:Key="ResultView27">даст комплексный набор знаний, инструментов и навыков актуальных для повышения эффективности бизнес-процессов</system:String>
+    <system:String x:Key="ResultView28">Цифровая трансформация бизнеса</system:String>
+    <system:String x:Key="ResultView29">поможет погрузиться в инновационные технологии и разработать свой проект по изменению процессов в компании</system:String>
+
+    <system:String x:Key="ResultView3ResultTitle">Ваш результат 7-10 баллов</system:String>
+    <system:String x:Key="ResultView31">Приятно иметь дело с профессионалом! Продолжайте в том же духе!</system:String>
+    <system:String x:Key="ResultView32">Для достижения самых амбициозных целей предлагаем ознакомиться с возможностями диагностики и карьерного консультирования SberQ.</system:String>
+    <system:String x:Key="ResultView33">Вот программы, на которые вы можете обратить внимание прямо сейчас:</system:String>
+    <system:String x:Key="ResultView34">Вызов сильных</system:String>
+    <system:String x:Key="ResultView35">новая уникальная программа, которая поможет лидерам исследовать свой внутренний ресурс и направить его на достижение новых результатов, даже если кажется, что они уже пройдены</system:String>
+    <system:String x:Key="ResultView36">STEP</system:String>
+    <system:String x:Key="ResultView37">международная программа сделает из вас лидера нового поколения, способного в условиях высокой неопределённости инициировать изменения и управлять ими</system:String>
+    <system:String x:Key="ResultView38">Digital Strategy</system:String>
+    <system:String x:Key="ResultView39">поможет перестроить текущую бизнес-модель и провести цифровую трансформацию бизнеса для завоевания и сохранения лидерской позиции на рынке</system:String>
+
+
+    <system:String x:Key="LastViewMainTitle">Ваши результаты успешно отправлены!</system:String>
+    <system:String x:Key="LastViewMainText">Спасибо за прохождение теста</system:String>
+    <system:String x:Key="LastViewQRManagment">Узнать больше про оценку руководителей SberQ</system:String>
+    <system:String x:Key="LastViewQRSberOBR">Узнать об образовательных решениях СберУниверситета</system:String>
+    <system:String x:Key="LastViewButtonToHome">На главную</system:String>
+    
+    <system:String x:Key="ResultViewMessageOn">Вы можете получить результаты на почту, для этого заполните поле ниже.</system:String>
+    <system:String x:Key="ResultViewCheckBoxMessage">Я ознакомлен с Политикой СберУниверситета и даю согласие на обработку персональных данных</system:String>
+    <system:String x:Key="ResultViewButtonComplete">Завершить</system:String>
+    <system:String x:Key="ResultViewButtonTakeResult">Получить результаты</system:String>
+</ResourceDictionary>

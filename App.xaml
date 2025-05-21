@@ -1,0 +1,39 @@
+﻿<Application x:Class="PollSber.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PollSber"
+             xmlns:views="clr-namespace:PollSber.Views"
+             xmlns:viewmodels="clr-namespace:PollSber.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Assets/Styles/WindowAndPageStyles.xaml"/>
+                <ResourceDictionary Source="/Assets/Styles/TextStyles.xaml"/>
+                <ResourceDictionary Source="/Assets/Styles/ButtonsStyles.xaml"/>
+                <ResourceDictionary Source="/Assets/Styles/ImageStyles.xaml"/>
+                <ResourceDictionary Source="/Assets/Styles/SliderStyles.xaml"/>
+                <ResourceDictionary Source="/Assets/Text/Text.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <FontFamily x:Key="SBSansDisplay">
+                pack://application:,,,/Assets/Fonts/SB Sans Display Semibold.ttf#SB Sans Display Semibold
+            </FontFamily>
+            <FontFamily x:Key="SBSansText">
+                pack://application:,,,/Assets/Fonts/SB Sans Text.ttf#SB Sans Text
+            </FontFamily>
+            <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
+                <views:HomeView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:LastViewModel}">
+                <views:LastView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:PollViewModel}">
+                <views:PollView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:ResultViewModel}">
+                <views:ResultView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

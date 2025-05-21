@@ -1,0 +1,20 @@
+﻿PollSber
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\
+PollSber
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Мои проектики\PollSberChanged\App.xaml
+152124242453
+
+221164149984
+208249569113
+Assets\Color\Color.xaml;Assets\Styles\ButtonsStyles.xaml;Assets\Styles\ImageStyles.xaml;Assets\Styles\SliderStyles.xaml;Assets\Styles\TextStyles.xaml;Assets\Styles\WindowAndPageStyles.xaml;Assets\Text\Text.xaml;Views\HomeView.xaml;Views\LastView.xaml;Views\MainWindow.xaml;Views\PollView.xaml;Views\PopupEmailError.xaml;Views\PopupPersonalData.xaml;Views\PopupPrivacePolicy.xaml;Views\ResultView.xaml;
+
+False
+

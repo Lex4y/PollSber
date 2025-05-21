@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="PollSber.Views.PollView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PollSber.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="1920" d:DesignWidth="1080"
+             Style="{StaticResource SUserControl}">
+    <Viewbox Stretch="Uniform">
+        <Grid Height="1920" Width="1080">
+            <Image Source="/Assets/Images/ImageLogo.png" Height="33" Margin="60" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Style="{StaticResource ButtonBackSmall}"
+                    FontFamily="{StaticResource SBSansText}"
+                    FontSize="24"
+                    Width="223"
+                    Height="62"
+                    Content="Назад"
+                    Margin="60"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Command="{Binding BackCommand}"/>
+            <StackPanel Width="960" Height="1644">
+                <TextBlock Style="{StaticResource TextTitleBig}"
+                            HorizontalAlignment="Left"
+                            Text="{StaticResource PollTitle}"/>
+                <StackPanel Width="960" Height="166" Margin="0 42">
+
+                    <TextBlock Style="{StaticResource TextBodyMedium}"
+                                Text="{StaticResource PollTextPart1}"
+                                Margin="0 0 0 16"/>
+                    <TextBlock Style="{StaticResource TextBodyMedium}"
+                                Text="{StaticResource PollTextPart2}"/>
+                </StackPanel>
+
+                <Border Width="960" Height="1158" Background="#20FFFFFF" Margin="0 0 0 42" Padding="40" CornerRadius="36">
+                    <StackPanel>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource TextTitleSmall}" Text="{StaticResource PollQuestion1}"/>
+                            <Slider Value="{Binding Slider1, Mode=TwoWay}" Style="{StaticResource SliderPollStyle}" Margin="0 24 0 8" Minimum="0" Maximum="2"/>
+                            <Grid>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Left" Text="{StaticResource PollQuestion1Value1}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Center" Text="{StaticResource PollQuestion1Value2}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Right" Text="{StaticResource PollQuestion1Value3}"/>
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Margin="0 72">
+                            <TextBlock Style="{StaticResource TextTitleSmall}" Text="{StaticResource PollQuestion2}"/>
+                            <Slider Value="{Binding Slider2, Mode=TwoWay}" Style="{StaticResource SliderPollStyle}" Margin="0 24 0 8" Minimum="0" Maximum="2"/>
+                            <Grid>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Left" Text="{StaticResource PollQuestion2Value1}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Center" Text="{StaticResource PollQuestion2Value2}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Right" Text="{StaticResource PollQuestion2Value3}"/>
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource TextTitleSmall}" Text="{StaticResource PollQuestion3}"/>
+                            <Slider Value="{Binding Slider3, Mode=TwoWay}" Style="{StaticResource SliderPollStyle}" Margin="0 24 0 8" Minimum="0" Maximum="2"/>
+                            <Grid>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Left" Text="{StaticResource PollQuestion3Value1}" Width="160"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Center" Text="{StaticResource PollQuestion3Value2}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Right" TextAlignment="Right" Text="{StaticResource PollQuestion3Value3}" Width="160"/>
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Margin="0 72">
+                            <TextBlock Style="{StaticResource TextTitleSmall}" Text="{StaticResource PollQuestion4}"/>
+                            <Slider Value="{Binding Slider4, Mode=TwoWay}" Style="{StaticResource SliderPollStyle}" Margin="0 24 0 8" Minimum="0" Maximum="2"/>
+                            <Grid>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Left" Text="{StaticResource PollQuestion4Value1}" Width="240"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Center" TextAlignment="Center" Text="{StaticResource PollQuestion4Value2}" Width="240"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Right" TextAlignment="Right"  Text="{StaticResource PollQuestion4Value3}" Margin="661,0,0,0" Width="219"/>
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource TextTitleSmall}" Text="{StaticResource PollQuestion5}"/>
+                            <Slider Value="{Binding Slider5, Mode=TwoWay}" Style="{StaticResource SliderPollStyle}" Margin="0 24 0 8" Minimum="0" Maximum="2"/>
+                            <Grid>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Left" Text="{StaticResource PollQuestion5Value1}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Center" Text="{StaticResource PollQuestion5Value2}"/>
+                                <TextBlock Style="{StaticResource TextBodySmall}" HorizontalAlignment="Right" TextAlignment="Right" Text="{StaticResource PollQuestion5Value3}" Width="280"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+                <Button Style="{StaticResource ButtonAccept}" 
+                        Width="445" 
+                        Height="109" 
+                        HorizontalAlignment="Left" 
+                        Content="{StaticResource PollButtonNext}" 
+                        FontFamily="{StaticResource SBSansText}"
+                        Command="{Binding NextCommand}"/>
+            </StackPanel>
+        </Grid>
+    </Viewbox>
+</UserControl>

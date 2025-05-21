@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="PollSber.Views.LastView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PollSber.Views"
+             mc:Ignorable="d" 
+                      d:DesignHeight="1920" d:DesignWidth="1080">
+    <Viewbox Stretch="Uniform">
+        <Grid Height="1920" Width="1080">
+            <Image Source="/Assets/Images/ImageLogo.png" Height="33" Margin="60" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <StackPanel Width="795" Height="1156">
+                <TextBlock Style="{StaticResource TextTitleBig}"
+                      Text="{StaticResource LastViewMainTitle}" />
+
+                <TextBlock Style="{StaticResource TextBodyBig}"
+                       Text="{StaticResource LastViewMainText}"
+                       TextAlignment="Center"
+                       Margin="0 63 0 0"/>
+
+                <Button Style="{StaticResource ButtonQR}"
+                    VerticalAlignment="Center" 
+                    Width="655"
+                    Margin="0 95 0 40"
+                    Command="{Binding OpenFirstQrUrlCommand}">
+                    <Grid Width="655">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="/Assets/Images/ImageQRAssessmentManagers.png"
+                        Style="{StaticResource QRCodeImage}"
+                        Grid.Column="0"
+                        Margin="24 24 36 24" RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-90"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+
+                        <TextBlock Grid.Column="1"
+                        Style="{StaticResource TextTitleMedium}"
+                        VerticalAlignment="Center"
+                        TextAlignment="Left"
+                        HorizontalAlignment="Left">
+                            <Run Text="Узнать больше"/><LineBreak/>
+                            <Run Text="про оценку"/><LineBreak/>
+                            <Run Text="руководителей SberQ"/>
+                        </TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource ButtonQR}"
+                    VerticalAlignment="Center" 
+                    Width="655"
+                    Margin="0 0 0 95"
+                    Command="{Binding OpenSecondQrUrlCommand}">
+                    <Grid Width="655">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="/Assets/Images/ImageQREducationSber.png"
+                            Style="{StaticResource QRCodeImage}"
+                            Grid.Column="0"
+                            Margin="24 24 36 24" RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-90"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+
+                        <TextBlock Grid.Column="1"
+                            Style="{StaticResource TextTitleMedium}"
+                            VerticalAlignment="Center"
+                            TextAlignment="Left"
+                            HorizontalAlignment="Left">
+                                 <Run Text="Узнать"/><LineBreak/>
+                                 <Run Text="об образовательных решениях СберУниверситета"/>
+                        </TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource ButtonAccept}"
+                        Width="510"
+                        Height="122"
+                        Content="{StaticResource LastViewButtonToHome}"
+                        FontFamily="{StaticResource SBSansText}"
+                        FontSize="36"
+                        Command="{Binding GoToHomeCommand}"/>
+            </StackPanel>
+        </Grid>
+    </Viewbox>
+</UserControl>

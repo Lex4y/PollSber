@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="PollSber.Views.PopupEmailError"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PollSber.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="713" d:DesignWidth="960"
+             Style="{StaticResource SUserControlErrorEmail}">
+    <Viewbox Stretch="Uniform">
+        <!--Временный цвет для Popup, потом сделай фон размытым и окно в стиле Sber-->
+        <Border CornerRadius="36" Width="960" Height="713" Background="DarkBlue">
+            <Grid>
+                <StackPanel>
+                    <TextBlock Text="Что-то пошло не так" Style="{StaticResource TextTitleBig}" Width="500" Margin="0 95 0 24"/>
+                    <TextBlock Text="Проверьте введенные данные и попробуйте еще раз" TextAlignment="Center" Style="{StaticResource TextBodyBig}" Width="570"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 95">
+                        <Button Style="{StaticResource ButtonBack}" 
+                            Width="344" Height="94" 
+                            Content="На главную" 
+                            FontSize="24" FontFamily="{StaticResource SBSansText}"
+                            Margin="0 0 32 0"
+                            Command="{Binding FinishCommand}"/>
+                        <Button Style="{StaticResource ButtonAccept}" 
+                                Width="344" Height="94" 
+                                Content="Попробовать ещё раз" FontSize="24" FontFamily="{StaticResource SBSansText}"
+                                Command="{Binding CloseEmailErrorPopupCommand}"/>
+                    </StackPanel>
+                </StackPanel>
+                
+            </Grid>
+        </Border>
+    </Viewbox>
+</UserControl>

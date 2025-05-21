@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="PollSber.Views.ResultView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PollSber.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="1920" d:DesignWidth="1080"
+             Style="{StaticResource SUserControl}">
+    <Viewbox Stretch="Uniform">
+        <Grid x:Name="MainGrid" Height="1920" Width="1080" Background="Transparent">
+            <Image Source="/Assets/Images/ImageLogo.png" Height="33" Margin="60" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <StackPanel Height="Auto" VerticalAlignment="Center" Width="796">
+                <StackPanel Margin="0 0 0 72">
+                    <TextBlock Style="{StaticResource TextTitleBig}"
+                               Text="{Binding ResultTitle}"
+                               Height="170"
+                               Margin="0 0 0 40"/>
+                    <StackPanel Margin="0 0 0 40">
+                        <TextBlock Style="{StaticResource TextBodyMedium}"
+                                   Text="{Binding ResultText1}"
+                                   Margin="0 0 0 16"/>
+                        <TextBlock Style="{StaticResource TextBodyMedium}"
+                                   Text="{Binding ResultText2}"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource TextBodyMedium}"
+                                   Text="{Binding ResultText3}"
+                                   Margin="0 0 0 32"/>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource TextTitleMedium}"
+                                       Text="{Binding ResultText4}"
+                                       Margin="0 0 0 16"/>
+                            <TextBlock Style="{StaticResource TextBodySmall}"
+                                       Text="{Binding ResultText5}"/>
+                        </StackPanel>
+                        <StackPanel Margin="0 24">
+                            <TextBlock Style="{StaticResource TextTitleMedium}"
+                                       Text="{Binding ResultText6}"
+                                       Margin="0 0 0 16"/>
+                            <TextBlock Style="{StaticResource TextBodySmall}"
+                                       Text="{Binding ResultText7}"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource TextTitleMedium}"
+                                       Text="{Binding ResultText8}"
+                                       Margin="0 0 0 16"/>
+                            <TextBlock Style="{StaticResource TextBodySmall}"
+                                       Text="{Binding ResultText9}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextBodyMedium}"
+                               Text="{StaticResource ResultViewMessageOn}"
+                               Width="674" HorizontalAlignment="Left"/>
+                    <StackPanel Margin="0 32">
+                        <TextBox Style="{StaticResource InputEmailStyle}"
+                                 Text="{Binding UserEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="0 16 0 0">
+                            <CheckBox Style="{StaticResource CheckBoxStyle}"
+                                      Width="32" Height="32"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Top"
+                                      Margin="0 0 16 0"
+                                      IsChecked="{Binding IsAgreed, Mode=TwoWay}"/>
+                            <TextBlock Style="{StaticResource TextBodySmall}" Width="625">
+                                Я ознакомлен с 
+                                <Hyperlink Style="{StaticResource HyperlinkStyle}" Command="{Binding OpenPrivacyPolicyCommand}">Политикой СберУниверситета</Hyperlink>
+                                и даю согласие на
+                                <Hyperlink Style="{StaticResource HyperlinkStyle}" Command="{Binding OpenPersonalDataCommand}">обработку персональных данных</Hyperlink>
+                            </TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 32">
+                        <Button Style="{StaticResource ButtonBack}" 
+                                Width="382" Height="94" 
+                                Content="{StaticResource ResultViewButtonComplete}" 
+                                FontSize="24" FontFamily="{StaticResource SBSansText}"
+                                Margin="0 0 32 0"
+                                Command="{Binding FinishCommand}"/>
+                        <Button Style="{StaticResource ButtonAccept}"
+                                Width="382" Height="94"
+                                Content="{StaticResource ResultViewButtonTakeResult}"
+                                FontSize="24" FontFamily="{StaticResource SBSansText}"
+                                Command="{Binding SendEmailCommand}"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Попапы -->
+            <Popup IsOpen="{Binding IsPrivacyPolicyPopupOpen}" 
+                   Placement="Center" 
+                   PlacementTarget="{Binding ElementName=MainGrid}" 
+                   StaysOpen="False"
+                   AllowsTransparency="True">
+                <local:PopupPrivacePolicy DataContext="{Binding}"/>
+            </Popup>
+            <Popup IsOpen="{Binding IsPersonalDataPopupOpen}" 
+                   Placement="Center" 
+                   PlacementTarget="{Binding ElementName=MainGrid}" 
+                   StaysOpen="False"
+                   AllowsTransparency="True">
+                <local:PopupPersonalData DataContext="{Binding}"/>
+            </Popup>
+            <!-- Попап ошибки email -->
+            <Popup IsOpen="{Binding IsEmailErrorPopupOpen}" 
+                   Placement="Center" 
+                   PlacementTarget="{Binding ElementName=MainGrid}" 
+                   StaysOpen="False"
+                   AllowsTransparency="True">
+                <local:PopupEmailError DataContext="{Binding}"/>
+            </Popup>
+        </Grid>
+    </Viewbox>
+</UserControl>

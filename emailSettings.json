@@ -1,0 +1,7 @@
+{
+  "SmtpHost": "smtp.mail.ru",
+  "SmtpPort": 465,
+  "SmtpUsername": "@mail.ru",
+  "SmtpPassword": "",
+  "FromEmail": "@mail.ru"
+}

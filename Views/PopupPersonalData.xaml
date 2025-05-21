@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="PollSber.Views.PopupPersonalData"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PollSber.Views"
+             mc:Ignorable="d" 
+                         d:DesignHeight="1122" d:DesignWidth="960"
+>
+    <Viewbox Stretch="Uniform">
+        <Border CornerRadius="36" Background="White" Width="960" Height="1122">
+            <Grid>
+                <StackPanel Width="840" Height="866" Margin="60,70,60,0" VerticalAlignment="Top">
+                    <TextBlock Style="{StaticResource PopupTextStyleTitle}" Margin="0 0 0 24" Height="66">
+                        Согласие <LineBreak/>
+                        на обработку персональных данных
+                    </TextBlock>
+                    <TextBlock Style="{StaticResource PopupTextStyleText}" Width="840" Height="769">
+                        Я (далее – Субъект), действуя свободно, своей волей и в своем интересе, а также подтверждая свою полную дееспособность, в соответствии с требованиями Федерального закона от 27 июля 2006 г. № 152-ФЗ «О персональных данных» даю Автономной некоммерческой организации дополнительного профессионального образования «Корпоративный университет Сбербанка» ИНН 7736128605, ОГРН 1127799004233, адрес: 117997, г. Москва, 
+                        ул. Вавилова, дом 19 (далее – Оператор) настоящее согласие на обработку моих персональных данных (далее – Согласие) в составе: <LineBreak/>
+                        <LineBreak/>e-mail<LineBreak/><LineBreak/>
+                        с целью: информирования об оказываемых Оператором услугах.<LineBreak/><LineBreak/>
+                        Обработка моих ПДн будет проводиться как автоматизированным, так и без использования средств автоматизации способом, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, блокирование, удаление, уничтожение персональных данных.
+                        <LineBreak/><LineBreak/>Предоставлением и подтверждением настоящего Согласия является постановка мною метки в соответствующем чек-боксе и нажатие кнопки «Отправить» на тач-панели во время проведения имиджевых мероприятий.
+                        <LineBreak/><LineBreak/>Согласие действует до прекращения оказания услуг Оператором<LineBreak/><LineBreak/>
+                        Согласие может быть отозвано Субъектом или его надлежащим образом уполномоченным представителем путем направления Оператору заявления (письма), позволяющего идентифицировать отправителя, по адресу, указанному в начале текста настоящего Согласия или представителю Оператора по адресам:
+                        <LineBreak/><LineBreak/>электронная почта:      corp-university-privacy@sberbank.ru<LineBreak/><LineBreak/>
+                        почта России:              143581, Московская обл., Истринский р-он, д. Аносино, 
+                        <LineBreak/>ул. Университетская, вл. 11
+                    </TextBlock>
+                    <StackPanel Width="840" Height="703">
+
+                    </StackPanel>
+                </StackPanel>
+                <Button Style="{StaticResource ButtonForPop}" 
+                        Width="338" Height="94" Margin="0 0 0 60" VerticalAlignment="Bottom"
+                        Content="Закрыть" FontFamily="{StaticResource SBSansText}" FontSize="24"
+                        Command="{Binding ClosePersonalDataPopupCommand}"/>
+            </Grid>
+        </Border>
+    </Viewbox>
+</UserControl>
