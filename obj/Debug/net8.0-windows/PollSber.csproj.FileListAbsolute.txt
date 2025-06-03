@@ -94,3 +94,8 @@ D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\Views\Popu
 D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\Views\PopupPersonalData.baml
 D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\Views\PopupEmailError.g.cs
 D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\Views\PopupEmailError.baml
+D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\PollSber.sourcelink.json
+D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\Assets\Styles\ScrollBarStyles.baml
+D:\Мои проектики\PollSberChanged\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Мои проектики\PollSberChanged\obj\Debug\net8.0-windows\PollSber_Content.g.cs
+D:\Мои проектики\PollSberChanged\bin\Debug\net8.0-windows\emailSettings.json

@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\sliderstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\sliderstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\pollview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\pollview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\pollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\pollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\models\\pollquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:models\\pollquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\popuppersonaldata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\popuppersonaldata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\models\\pollresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:models\\pollresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\resultview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\resultview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\sliderstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\sliderstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\lastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\lastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\lastview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\lastview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\popuppersonaldata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\popuppersonaldata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\popupemailerror.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,72 +55,80 @@
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:emailsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\lastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\lastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\models\\pollresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:models\\pollresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\pollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\pollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\lastview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\lastview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\windowandpagestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\windowandpagestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\pollview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\pollview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\popupprivacepolicy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\popupprivacepolicy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\pollview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\pollview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\text\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\text\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\converters\\sliderprogressconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:converters\\sliderprogressconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\popupprivacepolicy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\popupprivacepolicy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\windowandpagestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\windowandpagestyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\resultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\resultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\scrollbarstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\scrollbarstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\styles\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\styles\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\views\\pollview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:views\\pollview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\text\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|solutionrelative:assets\\text\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C8C709-F19F-4E41-8BFA-9974632897AE}|PollSber.csproj|d:\\\u043C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\pollsberchanged\\assets\\color\\color.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -114,11 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 385,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
@@ -126,18 +154,17 @@
               "RelativeToolTip": "Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-18T16:18:05.893Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
               "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T16:18:04.343Z",
               "IsPinned": true
@@ -156,44 +183,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LastView.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\LastView.xaml",
+              "RelativeDocumentMoniker": "Views\\LastView.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\LastView.xaml",
+              "RelativeToolTip": "Views\\LastView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T12:57:23.79Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "emailSettings.json",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\emailSettings.json",
-              "RelativeDocumentMoniker": "emailSettings.json",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\emailSettings.json",
-              "RelativeToolTip": "emailSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T20:24:23.27Z"
+              "Title": "LastViewModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\LastViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LastViewModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\LastViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LastViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:15:16.259Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResultViewModel.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\ResultViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ResultViewModel.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\ResultViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ResultViewModel.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAuwJYAAAAAAAAA",
+              "Title": "PollView.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PollView.xaml",
+              "RelativeDocumentMoniker": "Views\\PollView.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PollView.xaml",
+              "RelativeToolTip": "Views\\PollView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T10:42:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PollViewModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\PollViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PollViewModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\PollViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PollViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wIQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T18:12:54.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T19:04:32.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultView.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml",
+              "RelativeDocumentMoniker": "Views\\ResultView.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml",
+              "RelativeToolTip": "Views\\ResultView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T15:37:38.53Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ButtonsStyles.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ButtonsStyles.xaml",
-              "RelativeDocumentMoniker": "Assets\\Styles\\ButtonsStyles.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ButtonsStyles.xaml",
-              "RelativeToolTip": "Assets\\Styles\\ButtonsStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T14:03:49.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "SliderStyles.xaml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\SliderStyles.xaml",
               "RelativeDocumentMoniker": "Assets\\Styles\\SliderStyles.xaml",
@@ -206,63 +253,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ResultView.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml",
-              "RelativeDocumentMoniker": "Views\\ResultView.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml",
-              "RelativeToolTip": "Views\\ResultView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T15:37:38.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PopupPersonalData.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupPersonalData.xaml",
-              "RelativeDocumentMoniker": "Views\\PopupPersonalData.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupPersonalData.xaml",
-              "RelativeToolTip": "Views\\PopupPersonalData.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T18:38:54.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LastViewModel.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\LastViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LastViewModel.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\LastViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LastViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Title": "ResultViewModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\ResultViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ResultViewModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\ResultViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ResultViewModel.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswJsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T20:15:16.259Z"
+              "WhenOpened": "2025-05-21T18:12:54.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeView.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml",
-              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml",
-              "RelativeToolTip": "Views\\HomeView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T10:10:57.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PopupEmailError.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupEmailError.xaml",
-              "RelativeDocumentMoniker": "Views\\PopupEmailError.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupEmailError.xaml",
-              "RelativeToolTip": "Views\\PopupEmailError.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T19:53:37.702Z"
+              "DocumentIndex": 3,
+              "Title": "PollQuestion.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\PollQuestion.cs",
+              "RelativeDocumentMoniker": "Models\\PollQuestion.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\PollQuestion.cs",
+              "RelativeToolTip": "Models\\PollQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:09:44.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:30:38.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PollResultData.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\PollResultData.cs",
               "RelativeDocumentMoniker": "Models\\PollResultData.cs",
@@ -275,38 +301,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "PopupPersonalData.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupPersonalData.xaml",
+              "RelativeDocumentMoniker": "Views\\PopupPersonalData.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupPersonalData.xaml",
+              "RelativeToolTip": "Views\\PopupPersonalData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T18:38:54.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PopupEmailError.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupEmailError.xaml",
+              "RelativeDocumentMoniker": "Views\\PopupEmailError.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupEmailError.xaml",
+              "RelativeToolTip": "Views\\PopupEmailError.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T19:53:37.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\EmailSettings.cs",
               "RelativeDocumentMoniker": "Models\\EmailSettings.cs",
               "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\EmailSettings.cs",
               "RelativeToolTip": "Models\\EmailSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T20:25:45.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwCIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:47:43.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PollViewModel.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\PollViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\PollViewModel.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\PollViewModel.cs",
-              "RelativeToolTip": "ViewModels\\PollViewModel.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA9wDMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:04:32.107Z"
             },
             {
               "$type": "Document",
@@ -316,47 +340,84 @@
               "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
               "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\HomeViewModel.cs",
               "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T19:25:11.934Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "LastView.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\LastView.xaml",
-              "RelativeDocumentMoniker": "Views\\LastView.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\LastView.xaml",
-              "RelativeToolTip": "Views\\LastView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T12:57:23.79Z"
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:47:43.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WindowAndPageStyles.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\WindowAndPageStyles.xaml",
-              "RelativeDocumentMoniker": "Assets\\Styles\\WindowAndPageStyles.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\WindowAndPageStyles.xaml",
-              "RelativeToolTip": "Assets\\Styles\\WindowAndPageStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T10:26:44.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PollView.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PollView.xaml",
-              "RelativeDocumentMoniker": "Views\\PollView.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PollView.xaml",
-              "RelativeToolTip": "Views\\PollView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T10:42:48.466Z"
+              "DocumentIndex": 12,
+              "Title": "emailSettings.json",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\emailSettings.json",
+              "RelativeDocumentMoniker": "emailSettings.json",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\emailSettings.json",
+              "RelativeToolTip": "emailSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T14:20:02.796Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T10:10:57.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\HomeView.xaml.cs",
+              "RelativeToolTip": "Views\\HomeView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:31:01.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:24:10.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SliderProgressConverter.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Converters\\SliderProgressConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\SliderProgressConverter.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Converters\\SliderProgressConverter.cs",
+              "RelativeToolTip": "Converters\\SliderProgressConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:33:41.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "PopupPrivacePolicy.xaml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PopupPrivacePolicy.xaml",
               "RelativeDocumentMoniker": "Views\\PopupPrivacePolicy.xaml",
@@ -367,7 +428,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
+              "Title": "WindowAndPageStyles.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\WindowAndPageStyles.xaml",
+              "RelativeDocumentMoniker": "Assets\\Styles\\WindowAndPageStyles.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\WindowAndPageStyles.xaml",
+              "RelativeToolTip": "Assets\\Styles\\WindowAndPageStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T10:26:44.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResultView.xaml.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ResultView.xaml.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\ResultView.xaml.cs",
+              "RelativeToolTip": "Views\\ResultView.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:18:49.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScrollBarStyles.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ScrollBarStyles.xaml",
+              "RelativeDocumentMoniker": "Assets\\Styles\\ScrollBarStyles.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ScrollBarStyles.xaml",
+              "RelativeToolTip": "Assets\\Styles\\ScrollBarStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T09:20:51.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T16:18:53.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TextStyles.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\TextStyles.xaml",
+              "RelativeDocumentMoniker": "Assets\\Styles\\TextStyles.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\TextStyles.xaml",
+              "RelativeToolTip": "Assets\\Styles\\TextStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T14:22:41.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Results.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\Results.cs",
+              "RelativeDocumentMoniker": "Models\\Results.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Models\\Results.cs",
+              "RelativeToolTip": "Models\\Results.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:33:21.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ButtonsStyles.xaml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ButtonsStyles.xaml",
+              "RelativeDocumentMoniker": "Assets\\Styles\\ButtonsStyles.xaml",
+              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\ButtonsStyles.xaml",
+              "RelativeToolTip": "Assets\\Styles\\ButtonsStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T14:03:49.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "PollView.xaml.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Views\\PollView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\PollView.xaml.cs",
@@ -379,55 +519,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\ViewModels\\RelayCommand.cs",
-              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:30:38.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Text.xaml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Text\\Text.xaml",
               "RelativeDocumentMoniker": "Assets\\Text\\Text.xaml",
               "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Text\\Text.xaml",
               "RelativeToolTip": "Assets\\Text\\Text.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T11:14:01.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T11:14:01.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TextStyles.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\TextStyles.xaml",
-              "RelativeDocumentMoniker": "Assets\\Styles\\TextStyles.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Styles\\TextStyles.xaml",
-              "RelativeToolTip": "Assets\\Styles\\TextStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T14:22:41.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T16:18:53.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "Color.xaml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u043A\u0438\\PollSberChanged\\Assets\\Color\\Color.xaml",
               "RelativeDocumentMoniker": "Assets\\Color\\Color.xaml",

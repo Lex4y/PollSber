@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Assets",
+    "\\Assets\\Styles",
     "\\ViewModels",
     "\\Views"
   ],
-  "SelectedNode": "\\Views\\MainWindow.xaml",
+  "SelectedNode": "\\Assets\\Styles\\SliderStyles.xaml",
   "PreviewInSolutionExplorer": false
 }

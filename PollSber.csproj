@@ -11,6 +11,7 @@
 <ItemGroup>
   <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
   <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 </ItemGroup>
 
   <ItemGroup>
@@ -49,6 +50,15 @@
     <Resource Include="Assets\Images\ImageQREducationSber.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Content Include="emailSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AssemblyInfo.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

@@ -39,6 +39,9 @@
     <Page Update="Assets\Styles\ImageStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Assets\Styles\ScrollBarStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Assets\Styles\SliderStyles.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -1,5 +1,8 @@
 ﻿using PollSber.Models;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
+using System.Windows;
 using System.Windows.Input;
 
 namespace PollSber.ViewModels
@@ -8,37 +11,7 @@ namespace PollSber.ViewModels
     {
         private readonly MainViewModel _mainViewModel;
 
-        private double _slider1;
-        private double _slider2;
-        private double _slider3;
-        private double _slider4;
-        private double _slider5;
-
-        public double Slider1
-        {
-            get => _slider1;
-            set { _slider1 = value; OnPropertyChanged(nameof(Slider1)); }
-        }
-        public double Slider2
-        {
-            get => _slider2;
-            set { _slider2 = value; OnPropertyChanged(nameof(Slider2)); }
-        }
-        public double Slider3
-        {
-            get => _slider3;
-            set { _slider3 = value; OnPropertyChanged(nameof(Slider3)); }
-        }
-        public double Slider4
-        {
-            get => _slider4;
-            set { _slider4 = value; OnPropertyChanged(nameof(Slider4)); }
-        }
-        public double Slider5
-        {
-            get => _slider5;
-            set { _slider5 = value; OnPropertyChanged(nameof(Slider5)); }
-        }
+        public ObservableCollection<PollQuestion> Questions { get; } = new ObservableCollection<PollQuestion>();
 
         public ICommand BackCommand { get; }
         public ICommand NextCommand { get; }
@@ -46,23 +19,114 @@ namespace PollSber.ViewModels
         public PollViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
+
+            // Инициализация вопросов
+            InitializeQuestions();
+
             BackCommand = new RelayCommand(_ => _mainViewModel.NavigateToHome());
-            NextCommand = new RelayCommand(_ =>
+            NextCommand = new RelayCommand(_ => NavigateToResults(), _ => CanNavigateToResults());
+        }
+
+        private void InitializeQuestions()
+        {
+            // Вопрос 1
+            Questions.Add(new PollQuestion
             {
-                var resultData = new PollResultData
+                QuestionText = (string)Application.Current.FindResource("PollQuestion1"),
+                ValueTexts = new[]
                 {
-                    Slider1 = this.Slider1,
-                    Slider2 = this.Slider2,
-                    Slider3 = this.Slider3,
-                    Slider4 = this.Slider4,
-                    Slider5 = this.Slider5
-                };
-                _mainViewModel.NavigateToResult(resultData);
+                    (string)Application.Current.FindResource("PollQuestion1Value1"),
+                    (string)Application.Current.FindResource("PollQuestion1Value2"),
+                    (string)Application.Current.FindResource("PollQuestion1Value3")
+                },
+                MinValue = 0,
+                MaxValue = 2,
+                CurrentValue = 0
+            });
+
+            // Вопрос 2
+            Questions.Add(new PollQuestion
+            {
+                QuestionText = (string)Application.Current.FindResource("PollQuestion2"),
+                ValueTexts = new[]
+                {
+                    (string)Application.Current.FindResource("PollQuestion2Value1"),
+                    (string)Application.Current.FindResource("PollQuestion2Value2"),
+                    (string)Application.Current.FindResource("PollQuestion2Value3")
+                },
+                MinValue = 0,
+                MaxValue = 2,
+                CurrentValue = 0
+            });
+
+            // Вопрос 3
+            Questions.Add(new PollQuestion
+            {
+                QuestionText = (string)Application.Current.FindResource("PollQuestion3"),
+                ValueTexts = new[]
+                {
+                    (string)Application.Current.FindResource("PollQuestion3Value1"),
+                    (string)Application.Current.FindResource("PollQuestion3Value2"),
+                    (string)Application.Current.FindResource("PollQuestion3Value3")
+                },
+                MinValue = 0,
+                MaxValue = 2,
+                CurrentValue = 0
+            });
+
+            // Вопрос 4
+            Questions.Add(new PollQuestion
+            {
+                QuestionText = (string)Application.Current.FindResource("PollQuestion4"),
+                ValueTexts = new[]
+                {
+                    (string)Application.Current.FindResource("PollQuestion4Value1"),
+                    (string)Application.Current.FindResource("PollQuestion4Value2"),
+                    (string)Application.Current.FindResource("PollQuestion4Value3")
+                },
+                MinValue = 0,
+                MaxValue = 2,
+                CurrentValue = 0
+            });
+
+            // Вопрос 5
+            Questions.Add(new PollQuestion
+            {
+                QuestionText = (string)Application.Current.FindResource("PollQuestion5"),
+                ValueTexts = new[]
+                {
+                    (string)Application.Current.FindResource("PollQuestion5Value1"),
+                    (string)Application.Current.FindResource("PollQuestion5Value2"),
+                    (string)Application.Current.FindResource("PollQuestion5Value3")
+                },
+                MinValue = 0,
+                MaxValue = 2,
+                CurrentValue = 0
             });
         }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
-        protected virtual void OnPropertyChanged(string propertyName)
+        private bool CanNavigateToResults()
+        {
+            // Проверка, что все вопросы отвечены (если требуется)
+            return Questions.All(q => q.CurrentValue >= q.MinValue && q.CurrentValue <= q.MaxValue);
+        }
+
+        private void NavigateToResults()
+        {
+            var resultData = new PollResultData
+            {
+                Slider1 = Questions[0].CurrentValue,
+                Slider2 = Questions[1].CurrentValue,
+                Slider3 = Questions[2].CurrentValue,
+                Slider4 = Questions[3].CurrentValue,
+                Slider5 = Questions[4].CurrentValue
+            };
+
+            _mainViewModel.NavigateToResult(resultData);
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

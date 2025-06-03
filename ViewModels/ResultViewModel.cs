@@ -19,17 +19,8 @@ namespace PollSber.ViewModels
         private bool _isEmailErrorPopupOpen;
         private string _userEmail = "";
         private bool _isAgreed;
-
-        public string ResultTitle { get; }
-        public string ResultText1 { get; }
-        public string ResultText2 { get; }
-        public string ResultText3 { get; }
-        public string ResultText4 { get; }
-        public string ResultText5 { get; }
-        public string ResultText6 { get; }
-        public string ResultText7 { get; }
-        public string ResultText8 { get; }
-        public string ResultText9 { get; }
+        public bool IsAnyPopupOpen => IsPrivacyPolicyPopupOpen || IsPersonalDataPopupOpen || IsEmailErrorPopupOpen;
+        public Results Result { get; }
 
         public string UserEmail
         {
@@ -46,19 +37,34 @@ namespace PollSber.ViewModels
         public bool IsPrivacyPolicyPopupOpen
         {
             get => _isPrivacyPolicyPopupOpen;
-            set { _isPrivacyPolicyPopupOpen = value; OnPropertyChanged(nameof(IsPrivacyPolicyPopupOpen)); }
+            set
+            {
+                _isPrivacyPolicyPopupOpen = value;
+                OnPropertyChanged(nameof(IsPrivacyPolicyPopupOpen));
+                OnPropertyChanged(nameof(IsAnyPopupOpen));
+            }
         }
 
         public bool IsPersonalDataPopupOpen
         {
             get => _isPersonalDataPopupOpen;
-            set { _isPersonalDataPopupOpen = value; OnPropertyChanged(nameof(IsPersonalDataPopupOpen)); }
+            set
+            {
+                _isPersonalDataPopupOpen = value;
+                OnPropertyChanged(nameof(IsPersonalDataPopupOpen));
+                OnPropertyChanged(nameof(IsAnyPopupOpen));
+            }
         }
 
         public bool IsEmailErrorPopupOpen
         {
             get => _isEmailErrorPopupOpen;
-            set { _isEmailErrorPopupOpen = value; OnPropertyChanged(nameof(IsEmailErrorPopupOpen)); }
+            set
+            {
+                _isEmailErrorPopupOpen = value;
+                OnPropertyChanged(nameof(IsEmailErrorPopupOpen));
+                OnPropertyChanged(nameof(IsAnyPopupOpen));
+            }
         }
 
         public ICommand OpenPrivacyPolicyCommand { get; }
@@ -68,6 +74,7 @@ namespace PollSber.ViewModels
         public ICommand FinishCommand { get; }
         public ICommand SendEmailCommand { get; }
         public ICommand CloseEmailErrorPopupCommand { get; }
+
 
         public ResultViewModel(PollResultData resultData, MainViewModel mainViewModel)
         {
@@ -79,16 +86,19 @@ namespace PollSber.ViewModels
             else if (sum <= 6) groupPrefix = "ResultView2";
             else groupPrefix = "ResultView3";
 
-            ResultTitle = Application.Current.FindResource($"{groupPrefix}ResultTitle") as string ?? "";
-            ResultText1 = Application.Current.FindResource($"{groupPrefix}1") as string ?? "";
-            ResultText2 = Application.Current.FindResource($"{groupPrefix}2") as string ?? "";
-            ResultText3 = Application.Current.FindResource($"{groupPrefix}3") as string ?? "";
-            ResultText4 = Application.Current.FindResource($"{groupPrefix}4") as string ?? "";
-            ResultText5 = Application.Current.FindResource($"{groupPrefix}5") as string ?? "";
-            ResultText6 = Application.Current.FindResource($"{groupPrefix}6") as string ?? "";
-            ResultText7 = Application.Current.FindResource($"{groupPrefix}7") as string ?? "";
-            ResultText8 = Application.Current.FindResource($"{groupPrefix}8") as string ?? "";
-            ResultText9 = Application.Current.FindResource($"{groupPrefix}9") as string ?? "";
+            Result = new Results
+            {
+                Title = Application.Current.FindResource($"{groupPrefix}ResultTitle") as string ?? "",
+                Text1 = Application.Current.FindResource($"{groupPrefix}1") as string ?? "",
+                Text2 = Application.Current.FindResource($"{groupPrefix}2") as string ?? "",
+                Text3 = Application.Current.FindResource($"{groupPrefix}3") as string ?? "",
+                Text4 = Application.Current.FindResource($"{groupPrefix}4") as string ?? "",
+                Text5 = Application.Current.FindResource($"{groupPrefix}5") as string ?? "",
+                Text6 = Application.Current.FindResource($"{groupPrefix}6") as string ?? "",
+                Text7 = Application.Current.FindResource($"{groupPrefix}7") as string ?? "",
+                Text8 = Application.Current.FindResource($"{groupPrefix}8") as string ?? "",
+                Text9 = Application.Current.FindResource($"{groupPrefix}9") as string ?? ""
+            };
 
             OpenPrivacyPolicyCommand = new RelayCommand(_ => IsPrivacyPolicyPopupOpen = true);
             OpenPersonalDataCommand = new RelayCommand(_ => IsPersonalDataPopupOpen = true);
@@ -101,45 +111,60 @@ namespace PollSber.ViewModels
 
         private void SendEmailToUser()
         {
+            // Проверка, что поле Email не пустое
             if (string.IsNullOrWhiteSpace(UserEmail))
             {
                 IsEmailErrorPopupOpen = true;
                 return;
             }
+
+            // Проверка, что пользователь согласен
             if (!IsAgreed)
             {
-                // Можно добавить отдельный попап или сообщение о согласии
                 IsEmailErrorPopupOpen = true;
                 return;
             }
+            
             try
             {
-                var emailSettings = JsonSerializer.Deserialize<EmailSettings>(
-                    File.ReadAllText("Config/emailSettings.json"));
 
+                // Чтение настроек из JSON файла
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "emailSettings.json");
+                var emailSettingsJson = File.ReadAllText(path);
+                var emailSettings = JsonSerializer.Deserialize<EmailSettings>(emailSettingsJson);
+                if (emailSettings == null)
+                {
+                    // Обработка ошибки, если настройки не прочитались
+                    throw new Exception("Настройки почты не найдены");
+                }
+
+                // Формирование письма
                 var mail = new MailMessage
                 {
                     From = new MailAddress(emailSettings.FromEmail),
                     Subject = "Результаты опроса",
-                    Body = $"Вы набрали баллов: ...\n\n{ResultTitle}\n\n{ResultText1}\n{ResultText2}\n{ResultText3}\n{ResultText4}\n{ResultText5}\n{ResultText6}\n{ResultText7}\n{ResultText8}\n{ResultText9}",
+                    Body = $"{Result.Title}\n\n{Result.Text1}\n{Result.Text2}\n{Result.Text3}\n{Result.Text4}\n{Result.Text5}\n{Result.Text6}\n{Result.Text7}\n{Result.Text8}\n{Result.Text9}",
                     IsBodyHtml = false
                 };
                 mail.To.Add(new MailAddress(UserEmail));
-
+                // Настройка SMTP клиента
                 using var smtp = new SmtpClient(emailSettings.SmtpHost, emailSettings.SmtpPort)
                 {
                     Credentials = new NetworkCredential(emailSettings.SmtpUsername, emailSettings.SmtpPassword),
                     EnableSsl = true
                 };
+                // Отправка письма
                 smtp.Send(mail);
-
+                // После успешной отправки — навигация или другое действие
                 _mainViewModel.NavigateToLast();
             }
             catch (Exception ex)
             {
+                // Обработка ошибок (например, логирование)
                 IsEmailErrorPopupOpen = true;
             }
         }
+
 
         public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)

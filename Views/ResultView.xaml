@@ -4,49 +4,56 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PollSber.Views"
+             xmlns:converters="clr-namespace:PollSber.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="1920" d:DesignWidth="1080"
              Style="{StaticResource SUserControl}">
+    <UserControl.Resources>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </UserControl.Resources>
+
     <Viewbox Stretch="Uniform">
         <Grid x:Name="MainGrid" Height="1920" Width="1080" Background="Transparent">
+
+
             <Image Source="/Assets/Images/ImageLogo.png" Height="33" Margin="60" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <StackPanel Height="Auto" VerticalAlignment="Center" Width="796">
                 <StackPanel Margin="0 0 0 72">
                     <TextBlock Style="{StaticResource TextTitleBig}"
-                               Text="{Binding ResultTitle}"
+                               Text="{Binding Result.Title}"
                                Height="170"
                                Margin="0 0 0 40"/>
                     <StackPanel Margin="0 0 0 40">
                         <TextBlock Style="{StaticResource TextBodyMedium}"
-                                   Text="{Binding ResultText1}"
+                                   Text="{Binding Result.Text1}"
                                    Margin="0 0 0 16"/>
                         <TextBlock Style="{StaticResource TextBodyMedium}"
-                                   Text="{Binding ResultText2}"/>
+                                   Text="{Binding Result.Text2}"/>
                     </StackPanel>
                     <StackPanel>
                         <TextBlock Style="{StaticResource TextBodyMedium}"
-                                   Text="{Binding ResultText3}"
+                                   Text="{Binding Result.Text3}"
                                    Margin="0 0 0 32"/>
                         <StackPanel>
                             <TextBlock Style="{StaticResource TextTitleMedium}"
-                                       Text="{Binding ResultText4}"
+                                       Text="{Binding Result.Text4}"
                                        Margin="0 0 0 16"/>
                             <TextBlock Style="{StaticResource TextBodySmall}"
-                                       Text="{Binding ResultText5}"/>
+                                       Text="{Binding Result.Text5}"/>
                         </StackPanel>
                         <StackPanel Margin="0 24">
                             <TextBlock Style="{StaticResource TextTitleMedium}"
-                                       Text="{Binding ResultText6}"
+                                       Text="{Binding Result.Text6}"
                                        Margin="0 0 0 16"/>
                             <TextBlock Style="{StaticResource TextBodySmall}"
-                                       Text="{Binding ResultText7}"/>
+                                       Text="{Binding Result.Text7}"/>
                         </StackPanel>
                         <StackPanel>
                             <TextBlock Style="{StaticResource TextTitleMedium}"
-                                       Text="{Binding ResultText8}"
+                                       Text="{Binding Result.Text8}"
                                        Margin="0 0 0 16"/>
                             <TextBlock Style="{StaticResource TextBodySmall}"
-                                       Text="{Binding ResultText9}"/>
+                                       Text="{Binding Result.Text9}"/>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
@@ -88,7 +95,12 @@
                 </StackPanel>
             </StackPanel>
 
+
+            <Border Background="#80000000"
+            Visibility="{Binding IsAnyPopupOpen, Converter={StaticResource BoolToVisibilityConverter}}"
+            Panel.ZIndex="10"/>
             <!-- Попапы -->
+            <!-- Попап политики сбера -->
             <Popup IsOpen="{Binding IsPrivacyPolicyPopupOpen}" 
                    Placement="Center" 
                    PlacementTarget="{Binding ElementName=MainGrid}" 
@@ -96,6 +108,7 @@
                    AllowsTransparency="True">
                 <local:PopupPrivacePolicy DataContext="{Binding}"/>
             </Popup>
+            <!-- Попап персональных данных -->
             <Popup IsOpen="{Binding IsPersonalDataPopupOpen}" 
                    Placement="Center" 
                    PlacementTarget="{Binding ElementName=MainGrid}" 
